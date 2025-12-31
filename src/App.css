@@ -12,3 +12,14 @@
 .about-me {
   color: #ffffff;
 }
+
+.linksContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1rem;
+
+  a {
+    padding: 1rem;
+  }
+}
