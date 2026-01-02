@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #111010;
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(27, 27, 26));
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -27,17 +27,17 @@ h1 {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.2em;
   margin: 0;
   color: #ffffff;
 }
 
 .linkbox {
   text-decoration: none;
-  padding: 1rem;
+  padding: 1em;
 
   span {
-    font-size: 2rem;
+    font-size: 2em;
     color: white;
   }
 }
@@ -47,3 +47,10 @@ p {
     color: #646cff;
   }
 }
+
+@media (max-width: 808px) {
+  p {
+    font-size: 14px;
+  }
+}
+

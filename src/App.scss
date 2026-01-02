@@ -7,6 +7,24 @@
 
 .logo {
   color: white;
+  width: 96px;
+  height: 96px;
+}
+
+@media (max-width: 640px) {
+  .logo {
+    width: 64px;
+    height: 64px;
+  }
+
+  .linkbox {
+    padding: 0.5rem;
+
+    span {
+      font-size: 1.5em;
+    }
+  }
+  
 }
 
 .about-me {
@@ -30,4 +48,3 @@
     padding: 1rem;
   }
 }
-
