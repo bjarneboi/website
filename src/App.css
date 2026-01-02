@@ -11,6 +11,10 @@
 
 .about-me {
   color: #ffffff;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
 }
 
 .linksContainer {
@@ -23,3 +27,4 @@
     padding: 1rem;
   }
 }
+
