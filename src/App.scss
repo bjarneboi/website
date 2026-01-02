@@ -10,18 +10,21 @@
 }
 
 .about-me {
-  color: #ffffff;
-  font-size: 1.2rem;
   display: flex;
   flex-direction: column;
   gap: 7px;
 }
 
-.linksContainer {
+.links {
+  margin-top: 2rem;
+}
+
+.linkbox-container {
   display: flex;
   justify-content: center;
   flex-direction: row;
   gap: 1rem;
+  margin-top: 20px;
 
   a {
     padding: 1rem;
