@@ -1,2 +1,2 @@
-# website
-bjarneboi.com
+# My website
+https://www.bjarneboi.com
