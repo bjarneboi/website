@@ -1,3 +1,7 @@
+* {
+ 	box-sizing: border-box;
+ }
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -23,6 +27,12 @@
 
     span {
       font-size: 1.5em;
+    }
+  }
+
+  .linkbox-container {
+    a {
+      padding: 0.5rem;
     }
   }
   
